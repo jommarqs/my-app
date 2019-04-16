@@ -1,4 +1,58 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Really simple ToDo app
+
+This is a React example app that lists ToDos and mark them as completed. It was created for educational purposes.
+
+Thank you [jsonplaceholder](https://jsonplaceholder.typicode.com/) from _typicode_ for the awsome mocked JSON API used on this example.
+
+## Resources
+
+### HTML
+
+- https://developer.mozilla.org/en-US/docs/Web/HTML
+
+### CSS & SASS
+
+- https://developer.mozilla.org/en-US/docs/Web/CSS
+- https://necolas.github.io/normalize.css
+- https://sass-lang.com/guide
+
+### Javscript
+
+- https://www.robinwieruch.de/javascript-fundamentals-react-requirements/
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+### React & JSX
+
+- https://reactjs.org/
+- https://reactjs.org/docs/jsx-in-depth.html
+- https://reactjs.org/docs/getting-started.html
+- http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
+- https://facebook.github.io/create-react-app/docs/getting-started
+
+### Redux
+
+- https://redux.js.org/
+
+### React-Router
+
+- https://reacttraining.com/react-router/web/guides/quick-start
+
+
+### Tests
+
+- https://facebook.github.io/create-react-app/docs/running-tests
+- https://jestjs.io/docs/en/tutorial-react
+- https://airbnb.io/enzyme/
+
+### Other
+
+- https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+- https://firebase.google.com/
+- https://jsonplaceholder.typicode.com/
+
+
+
+
 
 ## Available Scripts
 
