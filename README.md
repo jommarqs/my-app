@@ -1,10 +1,21 @@
-## Really simple ToDo app
+# Really simple ToDo app
 
 This is a React example app that lists ToDos and mark them as completed. It was created for educational purposes.
 
 Thank you [jsonplaceholder](https://jsonplaceholder.typicode.com/) from _typicode_ for the awsome mocked JSON API used on this example.
 
+## Proposed exercises
+
+- Add the PATCH call when toggling ToDos;
+- Add new ToDo (with a POST to `jsonplaceholder.typicode.com/todos`;
+- Backgroud updates of ToDos;
+
 ## Resources
+
+### Chrome Extentions
+
+- [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
+- [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en)
 
 ### HTML
 

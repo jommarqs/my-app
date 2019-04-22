@@ -18,7 +18,24 @@
   font-size: 1.5em;
 }
 
-p.completed {
+.todos {
+  list-style: none;
+  font-size: 1.5em;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.todos li {
+  margin: 1vh 0 0 0;
+}
+
+.filter-todos {
+  padding: 10px;
+  font-size: 1.1em;
+}
+
+.completed {
   text-decoration: line-through; 
 }
 
