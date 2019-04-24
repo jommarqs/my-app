@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { setTodos } from "../store/action-creators";
+import { setTodos, fetchTodos } from "../store/action-creators";
 import * as selectors from "../store/selectors";
-import { getTodos } from "../api";
 import TodoItem from "./TodoItem";
 
 import "./App.css";
@@ -17,7 +16,7 @@ class App extends Component {
   };
 
   componentDidMount() {
-    getTodos().then(this.props.setTodos);
+    this.props.fetchTodos();
   }
 
   render() {
@@ -58,15 +57,16 @@ const mapStateToProps = (store, ownProps) => ({
   todos: selectors.getOrderedTodos(store)
 });
 
-const mapDispatchToProps = {
-  setTodos
-};
 // const mapDispatchToProps = (dispatch) => ({
 //   generateRandom: () => {
 //     const randomNum = Math.random();
 //     return dispatch(setDummyRandom(randomNum));
 //   }
 // });
+const mapDispatchToProps = {
+  setTodos,
+  fetchTodos
+};
 
 const connectToStore = connect(
   mapStateToProps,

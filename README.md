@@ -43,6 +43,7 @@ Thank you [jsonplaceholder](https://jsonplaceholder.typicode.com/) from _typicod
 ### Redux
 
 - https://redux.js.org/
+- https://redux-saga.js.org/
 
 ### React-Router
 

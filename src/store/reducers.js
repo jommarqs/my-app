@@ -1,5 +1,5 @@
 import { combineReducers } from "redux";
-import { SET_TODOS, TOGGLE_TODO } from "./actions";
+import { SET_TODOS, TOGGLE_TODO } from "./action-types";
 
 const todosReducer = (state = {}, action) => {
   switch (action.type) {

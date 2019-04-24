@@ -1,4 +1,4 @@
-import { SET_TODOS, TOGGLE_TODO } from "./actions";
+import { SET_TODOS, TOGGLE_TODO, FETCH_TODOS, FETCH_TODOS_FAILED } from "./action-types";
 
 export const setTodos = todos => {
   const todosObj = !Array.isArray(todos)
@@ -14,4 +14,13 @@ export const setTodos = todos => {
 export const toggleTodo = todoId => ({
   type: TOGGLE_TODO,
   payload: todoId
+});
+
+export const fetchTodos = () => ({
+  type: FETCH_TODOS
+});
+
+export const fetchTodosFailed = error => ({
+  type: FETCH_TODOS_FAILED,
+  payload: error
 });
