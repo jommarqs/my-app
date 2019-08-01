@@ -2,7 +2,7 @@
 
 This is a React example app that lists ToDos and mark them as completed. It was created for educational purposes.
 
-Thank you [jsonplaceholder](https://jsonplaceholder.typicode.com/) from _typicode_ for the awsome mocked JSON API used on this example.
+Thank you [jsonplaceholder](https://jsonplaceholder.typicode.com/) from _typicode_ for the awesome mocked JSON API used on this example.
 
 ## Resources
 
@@ -16,7 +16,7 @@ Thank you [jsonplaceholder](https://jsonplaceholder.typicode.com/) from _typicod
 - https://necolas.github.io/normalize.css
 - https://sass-lang.com/guide
 
-### Javscript
+### Javascript
 
 - https://www.robinwieruch.de/javascript-fundamentals-react-requirements/
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript
